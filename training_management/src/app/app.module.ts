@@ -5,11 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SuperAdminLoginComponent } from './super-admin-login/super-admin-login.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SuperAdminLoginComponent
+    SuperAdminLoginComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
